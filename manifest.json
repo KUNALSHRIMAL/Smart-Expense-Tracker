@@ -1,0 +1,43 @@
+{
+  "name": "Smart Expense Tracker",
+  "short_name": "Expenses",
+  "description": "Personal Monthly Smart Expense Tracker — Track every rupee",
+  "start_url": "/money/dashboard.php",
+  "scope": "/money/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "lang": "en",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "/money/assets/icon.php?size=192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/money/assets/icon.php?size=512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Expense",
+      "short_name": "Add",
+      "description": "Record a new expense",
+      "url": "/money/add-expense.php",
+      "icons": [{ "src": "/money/assets/icon.php?size=96", "sizes": "96x96" }]
+    },
+    {
+      "name": "View History",
+      "short_name": "History",
+      "description": "Browse transaction history",
+      "url": "/money/history.php",
+      "icons": [{ "src": "/money/assets/icon.php?size=96", "sizes": "96x96" }]
+    }
+  ]
+}

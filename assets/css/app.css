@@ -1,0 +1,39 @@
+/*
+ * Minimal custom styles — Tailwind CDN handles the heavy lifting.
+ * Add project-specific overrides here.
+ */
+
+/* Prevent double-tap zoom on iOS buttons */
+button, a { touch-action: manipulation; }
+
+/* Remove iOS input shadow */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* iOS momentum scrolling */
+.scroll-container {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide number input spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] { -moz-appearance: textfield; }
+
+/* Ensure dark date picker on iOS */
+input[type="date"]::-webkit-datetime-edit-text,
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: #fff;
+}
