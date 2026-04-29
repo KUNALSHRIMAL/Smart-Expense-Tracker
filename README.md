@@ -10,9 +10,9 @@ A personal monthly expense tracker built as a **Progressive Web App (PWA)** usin
 
 | Dashboard | Add Expense | History |
 |-----------|-------------|---------|
-| ![Dashboard](<img width="648" height="871" alt="image" src="https://github.com/user-attachments/assets/e9734a1e-0b04-4b6f-82de-3944ceb7ca59" />
-) | ![Add Expense](<img width="626" height="857" alt="image" src="https://github.com/user-attachments/assets/2e1f294a-2cb0-49cf-840c-4a404e7e5c53" />
-) | ![History](<img width="709" height="852" alt="image" src="https://github.com/user-attachments/assets/bb5112bc-5acd-42a1-82c1-17c3f473ba7c" />
+| (<img width="648" height="871" alt="image" src="https://github.com/user-attachments/assets/e9734a1e-0b04-4b6f-82de-3944ceb7ca59" />
+) | (<img width="626" height="857" alt="image" src="https://github.com/user-attachments/assets/2e1f294a-2cb0-49cf-840c-4a404e7e5c53" />
+) | (<img width="709" height="852" alt="image" src="https://github.com/user-attachments/assets/bb5112bc-5acd-42a1-82c1-17c3f473ba7c" />
 ) |
 
 ---
